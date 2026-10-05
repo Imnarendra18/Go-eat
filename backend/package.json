@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently -k -n ADMIN,API,AUTH,CART,DELIVERY,FOOD,HOTEL,NOTIFICATION,ORDER,PAYMENT,RECOMMENDATION,REVIEW,USER -c blue,cyan,green,magenta,yellow,red,white,blue,cyan,green,magenta,yellow,red \"npm run dev --prefix admin-service\" \"npm run dev --prefix api-gateway\" \"npm run dev --prefix auth-service\" \"npm run dev --prefix cart-service\" \"npm run dev --prefix delivery-tracking-service\" \"npm run dev --prefix food-service\" \"npm run dev --prefix hotel-service\" \"npm run dev --prefix notification-service\" \"npm run dev --prefix order-service\" \"npm run dev --prefix payment-service\" \"npm run dev --prefix recommendation-service\" \"npm run dev --prefix review-rating-service\" \"npm run dev --prefix user-service\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

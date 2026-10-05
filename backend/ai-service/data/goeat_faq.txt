@@ -1,0 +1,27 @@
+GoEat is a food delivery platform with four panels: Guest, User, Hotel, and Admin.
+
+Guest users can browse foods and hotels but must login to place orders.
+
+Users can register, login, verify email, browse nearby hotels within 20 km, view foods, add items to cart, place orders, pay online, cancel orders, track delivery, write reviews, and use AI chatbot.
+
+Hotels can register, add foods, manage menu, receive orders, update order status, check earnings, and receive notifications.
+
+Admins can manage users, hotels, foods, orders, payments, refunds, reviews, and platform analytics.
+
+Users can cancel an order before it is delivered. If online payment was successful, refund can be processed through Razorpay.
+
+Payment is handled using Razorpay. Payment status can be PENDING, SUCCESS, FAILED, or REFUNDED.
+
+Order statuses are PENDING, CONFIRMED, PREPARING, OUT_FOR_DELIVERY, DELIVERED, CANCELLED, and REFUNDED.
+
+GoEat shows hotels within 20 km using user location and hotel location.
+
+Notifications are shown inside User, Hotel, and Admin panels. Some notifications can also be sent by email.
+
+Reviews can be added for foods and hotels after ordering.
+
+The AI chatbot helps users with food suggestions, order help, refund questions, hotel suggestions, and GoEat support.
+
+The hotel AI assistant helps hotel owners write food descriptions, improve ratings, understand orders, and optimize menu.
+
+The admin AI assistant helps admins summarize orders, payments, refunds, reviews, and platform issues.
