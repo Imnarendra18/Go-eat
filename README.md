@@ -49,3 +49,21 @@ An enterprise-grade, microservices-driven food delivery and hotel booking platfo
 │ Payment  │       │ Tracking │       │   Cart   │       │    AI    │       │ Review & │
 │ Service  │       │ Service  │       │ Service  │       │ Service  │       │ Rating   │
 └──────────┘       └──────────┘       └──────────┘       └──────────┘       └──────────┘
+## 🧩 Backend Services (`/backend`)
+
+| Microservice | Description |
+| :--- | :--- |
+| **`api-gateway`** | Central entry point for request routing, security, and protocol translation |
+| **`auth-service`** | Handles user authentication, JWT token issuance, and password security |
+| **`user-service`** | Manages user profiles, saved delivery addresses, and settings |
+| **`admin-service`** | Administrative dashboard controls, system metrics, and audit logs |
+| **`food-service`** | Manages food catalogs, restaurant menus, categories, and dish pricing |
+| **`hotel-service`** | Handles hotel directories, room catalogs, and booking availability |
+| **`cart-service`** | Persists session shopping cart state and prepares checkout items |
+| **`order-service`** | Manages order lifecycles, order states, and fulfillment workflows |
+| **`payment-service`** | Handles payment gateway integration and transaction processing |
+| **`delivery-tracking-service`** | Provides real-time GPS delivery tracking and driver updates |
+| **`notification-service`** | Dispatches automated emails, SMS alerts, and push notifications |
+| **`recommendation-service`** | Computes personalized dish suggestions and hotel recommendations |
+| **`review-rating-service`** | Processes customer feedback, reviews, and average rating scores |
+| **`ai-service`** | Powers intelligent query processing and smart AI features |
